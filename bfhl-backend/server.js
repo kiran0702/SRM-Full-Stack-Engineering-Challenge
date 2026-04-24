@@ -116,9 +116,9 @@ app.post("/bfhl", (req, res) => {
   }
 
   res.json({
-    user_id: "kiran_01012000",         // update: fullname_ddmmyyyy
-    email_id: "your_email@srmist.edu.in",  // update
-    college_roll_number: "your_roll",        // update
+    user_id: "KiranP_06122005",         // update: fullname_ddmmyyyy
+    email_id: "kp8533@srmist.edu.in",  // update
+    college_roll_number: "RA2311003020532",        // update
     hierarchies,
     invalid_entries: invalid,
     duplicate_edges: duplicates,
