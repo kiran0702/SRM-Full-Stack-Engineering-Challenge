@@ -282,7 +282,7 @@ export default function App() {
         );
       } else if (err.request) {
         setError(
-          "Cannot reach the backend. Make sure the server is running on http://localhost:3000"
+          "Cannot reach the backend. Please try again later."
         );
       } else {
         setError(`Request error: ${err.message}`);
