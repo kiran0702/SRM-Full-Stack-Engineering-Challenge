@@ -19,7 +19,7 @@ It includes:
 
 ## 📌 API Endpoint
 
-### POST /bfhl
+### POST / https://bfhl-backend-9bl6.onrender.com/
 
 #### Request Body
 ```json
