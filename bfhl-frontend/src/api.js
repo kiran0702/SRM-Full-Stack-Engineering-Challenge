@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL ="https://bfhl-backend-9bl6.onrender.com";
+const BASE_URL = "https://bfhl-backend-9bl6.onrender.com";
 
 const client = axios.create({
   baseURL: BASE_URL,
@@ -11,10 +11,5 @@ const client = axios.create({
 
 export const postEdges = async (edgeArray) => {
   const response = await client.post("/bfhl", { data: edgeArray });
-  return response.data;
-};
-
-export const healthCheck = async () => {
-  const response = await client.get("/bfhl");
   return response.data;
 };
